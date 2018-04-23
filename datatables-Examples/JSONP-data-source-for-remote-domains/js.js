@@ -3,8 +3,8 @@ $(document).ready(function() {
         "processing": true,
         "serverSide": true,
         "ajax": {
-            "url": "jsonp.php",
-            "dataType": "jsonp"
+            "url": "jsonp.json",
+            "dataType": "json"
         }
     } );
 } );
